@@ -45,7 +45,7 @@ def open_all_links_in_browser(links, duration):
 
 if __name__ == "__main__":
     # URL for fetching links
-    links_url = 'http://127.0.0.1/autorunlinks/links.json'
+    links_url = 'Enter your links.json file Here'
     
     # Read links from the JSON file
     links_to_open = get_links_from_url(links_url)
